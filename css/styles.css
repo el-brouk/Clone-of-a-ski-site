@@ -1,0 +1,39 @@
+
+/** HEADER **/
+#header-nav  {
+  background-color: black;
+  border-radius: 0;
+  
+}
+
+
+.navbar-brand h1 { /* company name */
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.5em;
+  /*text-shadow: 1px 1px 1px #222;*/
+  color: white;
+  margin-left: 7vw;
+}
+
+#pages ul {
+	color: white;;
+ margin-right: 7vw;
+	/*font-size: 1.2em;
+	font-weight: bold;*/
+}
+
+.navbar-toggler {
+	/*position: relative;
+	float: right;*/
+	border: none;
+}
+
+/*.navbar-toggler .navbar-toggler-icon {
+	color: white;
+}*/
+
+/*@media (min-width: 768px) {
+	.navbar-toggle {
+		display: none;	
+	}
+}*/
