@@ -6,70 +6,53 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>St Hugues/Les Egaux</title>
-<!--     <script type="application/javascript" src="js/jquery-3.6.0.min.js"></script>
-    <script type="application/javascript" src="js/bootstrap.min.js"></script>
-    <script type="application/javascript" src="js/script.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css"> 
- -->  </head>
+  </head>
 <body>
   <header>
-    <!--<nav id="header-nav" class="navbar navbar-dark navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <div class="navbar-header">
-          
-          <div class="navbar-brand">
-            <h1>St Hugues / Les Egaux</h1>
-          </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTog2" aria-controls="navbarTog2" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-       
-        <div class="collapse navbar-collapse" id="navbarTog2">
-          <ul id="pages" class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Enneigement</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Infos Pratiques</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Louez la station</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-        </div>
+        <a class="navbar-brand" href="#">St Hugues / Les Egaux</a>
         
-    </nav>-->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+            </button>
+          </div>
+          
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Enneigement</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Infos Pratiques</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Louez la station</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+     
+      <ul class="buttons sf-menu" data-user-set-ocm="off">
+        <li id="search-btn">
+          <div>
+            <a href="#searchbox" class>
+              <span class="icon-salient-search" aria-hidden="true">
+              </span>
+            </a>
+          </div>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+      </div>
+    </nav>
 
   </header>
 
