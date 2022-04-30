@@ -3,7 +3,7 @@
 
 .navbar-brand { /* company name */
   font-family: 'Oxygen', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.6em;
   color: white;
   margin-left: 4vw;
 }
@@ -11,7 +11,7 @@
 .offcanvas-body { /*dropdown list*/
 	color: white;;
  margin-left: 30pt;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 .navbar-toggler { /*the button*/
@@ -36,10 +36,22 @@
 }
 
 .btn-primary {
-	background-color: grey;
-	text-color: white;
+	background-color: black;
+	filter: contrast(80%);
 	border: none;
 }
+
+.filter-white {
+        filter: invert(100%) brightness(100%) contrast(90%);
+}
+
+/** jumbotron **/
+
+#jumbotron {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 
 /*@media (min-width: 768px) {
 	.navbar-toggle {

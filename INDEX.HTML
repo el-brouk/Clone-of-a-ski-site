@@ -43,17 +43,31 @@
      
         <form class="d-flex">
           <div class="collapse" id="collapseExample">
-          <input class="form-control me-2" type="search" placeholder="START TYPING..." aria-label="Search">
+            <input class="form-control me-2" type="search" placeholder="START TYPING..." aria-label="Search">
           </div>
-          <button class="btn btn-primary " type="submit" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><img src="/icons/search.svg" alt="Bootstrap" width="20" height="20"></button>
+          <button class="btn btn-primary " type="submit" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><img src="/icons/search.svg" alt="Bootstrap" width="25" height="25" class="filter-white"></button>
         </form>
 
-       
-
-      </div>
+     </div>
     </nav>
-
   </header>
+
+  <div class="p-0 mt-5 mb-4 bg-light rounded-0">
+    <div id="jumbotron" class="container-fluid py-3">
+      <!--<img src="images/landscape-jumbotron-768.jpeg" alt="Picture of mountains" class="img-fluid d-md-none">
+      <img src="images/landscape-jumbotron-992.jpeg" alt="Picture of mountains" class="img-fluid d-none d-md-block d-xxl-none">
+      <img src="images/landscape-jumbotron-1200.jpeg" alt="Picture of mountains" class="img-fluid d-none d-xxl-block">-->
+      <img srcset="images/landscape-jumbotron-768.jpeg 768w,
+                   images/landscape-jumbotron-992.jpeg 992w,
+                   images/landscape-jumbotron-1200.jpeg 1200w"
+            sizes="(max-width: 768px) 680px,
+                  (max-width: 992px) 880px,
+                  1200px"
+            src="images/landscape-jumbotron-768.jpeg" alt="Picture of mountains"
+            class="img-fluid">
+    </div>
+
+  </div>
 
 
 
