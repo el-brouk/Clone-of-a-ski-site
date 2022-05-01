@@ -48,10 +48,15 @@
 /** jumbotron **/
 
 #jumbotron {
+	position:relative;
 	padding-left: 0px;
 	padding-right: 0px;
 }
 
+#family {
+	width: 200px;
+	height: 150px;
+}
 
 /*@media (min-width: 768px) {
 	.navbar-toggle {
