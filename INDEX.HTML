@@ -53,26 +53,33 @@
   </header>
 
   <main>
-   <section class="container">
-   <div class="p-0 bg-light rounded-0">
-    <div id="jumbotron">
+   <section class="container-fluid p-0">
+    
+    <div class="p-0 bg-light rounded-0">
+      <div id="jumbotron">
       <!--<img src="images/landscape-jumbotron-768.jpeg" alt="Picture of mountains" class="img-fluid d-md-none">
       <img src="images/landscape-jumbotron-992.jpeg" alt="Picture of mountains" class="img-fluid d-none d-md-block d-xxl-none">
       <img src="images/landscape-jumbotron-1200.jpeg" alt="Picture of mountains" class="img-fluid d-none d-xxl-block">-->
 
-      <picture>
-        <source srcset="images/landscape-jumbotron-768.jpeg 768w,
+        <picture>
+          <source srcset="images/landscape-jumbotron-768.jpeg 768w,
                    images/landscape-jumbotron-992.jpeg 992w,
                    images/landscape-jumbotron-1200.jpeg 1200w" type="image/svg+xml"
                 sizes="(max-width: 768px) 680px,
                   (max-width: 992px) 880px,
                   1200px">
-        <img src="images/landscape-jumbotron-768.jpeg" alt="Picture of mountains" class="img-fluid">
-      </picture>
-    </div>
-      
-      <img id="family" src="images/family.jpeg" class="rounded-3 float-end" alt="Picture of a family">
-    </div>
+          <img src="images/landscape-jumbotron-768.jpeg" alt="Picture of mountains" class="img-fluid">
+        </picture>
+        
+        <div class="position-absolute top-50 start-50 translate-middle">
+          <img id="family" class="rounded-3" src="images/family.jpeg" alt="Picture of a family">
+        </div>
+
+      </div>
+
+    </div> 
+    
+         
   </section>
   </main>
 
