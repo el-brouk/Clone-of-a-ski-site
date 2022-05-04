@@ -56,6 +56,8 @@
 #family {
 	width: 400px;
 	height: 280px;
+	border-radius: 20px;
+	opacity: 0.6;
 	}
 
 #jumboText {
