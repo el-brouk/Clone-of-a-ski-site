@@ -8,6 +8,13 @@
   margin-left: 4vw;
 }
 
+.nav-link:hover, .nav-link:focus {
+	text-decoration: underline;
+	text-decoration-color: rgb(13, 202, 240);
+	text-decoration-thickness: 5px;
+	text-underline-offset: 0.5em;
+}
+
 .offcanvas-body { /*dropdown list*/
 	color: white;;
  margin-left: 30pt;
@@ -58,12 +65,16 @@
 	height: 280px;
 	border-radius: 20px;
 	opacity: 0.6;
-	}
+}
 
 #jumboText {
 	color: white;
 }
 
+
+.badge {
+	background-color: darkblue;
+}
 /*@media (min-width: 768px) {
 	.navbar-toggle {
 		display: none;	
