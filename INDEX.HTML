@@ -9,30 +9,42 @@
   </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand ps-5" href="#">St Hugues / Les Egaux</a>
-        
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark"> 
+     <!--<nav class="navbar navbar-dark bg-dark">-->
+      <div class="container">
+        <a class="navbar-brand" href="#">St Hugues / Les Egaux</a>
+          
         <!-- navbar button and offcanvas menu-->
-      
+          
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           
           <div class="offcanvas-header">
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
             </button>
           </div>
-
           
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
                   <a class="nav-link" href="#">Enneigement</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Infos Pratiques</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Infos Pratiques</a>
+                  <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Tafifs</a></li>
+                    <li><a class="dropdown-item" href="#">Plan</a></li>
+                    <li><a class="dropdown-item" href="#">Location de ski</a></li>
+                    <li><a class="dropdown-item" href="#">Restorstion</a></li>
+                    <li><a class="dropdown-item" href="#">Hebergement</a></li>
+                    <li><a class="dropdown-item" href="#">ESF - Cours de ski</a></li>
+                    <li><a class="dropdown-item" href="#">Espace debutants</a></li>
+                    <li><a class="dropdown-item" href="#">On parle de nous!</a></li>
+                    <li><a class="dropdown-item" href="#">Nos partenaires</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Louez la station</a>
@@ -42,18 +54,18 @@
                 </li>
             </ul>
           </div>
-        
         </div>
-      <!--</nav>   
+        
+        
 
-        <search button and form>
+       <!-- <search button and form>
           <div id="searchText">
             <input class="me-2" type="search" placeholder="START TYPING..." aria-label="Search">
           </div>
           
           <button id="searchButton" class="btn btn-primary " type="submit" aria-expanded="false" aria-controls="collapseExample"><img src="/icons/search.svg" alt="Bootstrap" width="25" height="25" class="filter-white">
           </button>
-        </form>-->
+        </form>
  
         
        <button id="searchButton" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#searchText" aria-expanded="false">
@@ -68,18 +80,16 @@
           <div class="offcanvas-body">
             <input class="border-0 mt-2" type="search" placeholder="START TYPING..." aria-label="Search">
           </div>
-        </div>
+        </div>-->
         
-
-      </div>
+        </div> 
     </nav>
-
   </header>
 
   <main>
    <section class="container-fluid p-0 mb-4">
     
-   <!-- <div class="p-0 bg-light rounded-0">-->
+  
       <div id="jumbotron">
       
         <picture>
@@ -100,20 +110,22 @@
                 <p>Aproximite le Grenoble, Lyon, Voiron, Bourgoin & Cambery, au ceur du massif de la Chartreuse!</p>
               </div>
               <div class="col-md-6 px-5">
-                <img id="family" src="images/family.jpeg" alt="Picture of a family">
+                <div class="d-flex justify-content-center">
+                  <img id="family" src="images/family.jpeg" alt="Picture of a family">
+                </div>
               </div>
             </div>
           </div>
         </div>
       
-        <div class="container mt-4 mb-4">
+       <div class="container mt-4 mb-4">
           <div class="badge bg-info text-wrap fs-6 lh-lg">Etats des routes, ouvertures des pistes & enneigement...</div>
         </div>
              
     </section>
 
     <section class="container">
-      <div class="mt-5 lh-1">
+      <div class="my-5 lh-1">
         <div class="row justify-content-between">
           <div class="col-4">
             <div class="badge text-wrap fs-6 lh-lg">Enneigement</div>
@@ -142,8 +154,21 @@
         </div>
       </div>
     </section>
-  </main>
 
+    <section class="container-fluid p-0 my-4">
+       
+        <picture>
+          <source srcset="images/landscape-jumbotron-768.jpeg 768w,
+                   images/landscape-jumbotron-992.jpeg 992w,
+                   images/landscape-jumbotron-1200.jpeg 1200w" type="image/svg+xml"
+                sizes="(max-width: 768px) 680px,
+                  (max-width: 992px) 880px,
+                  1200px">
+          <img src="images/landscape-jumbotron-768.jpeg" alt="Picture of tracks" class="img-fluid">
+        </picture>
+      </section>
+
+  </main>
 
     <!-- jQuery (Bootstrap JS plugins depend on it)  -->
   <script src="js/jquery-3.6.0.min.js"></script>
