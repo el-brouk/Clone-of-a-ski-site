@@ -100,6 +100,24 @@
 .badge {
 	background-color: darkblue;
 }
+
+
+
+.modal-content {
+	background: transparent;
+	border: none;
+}
+
+.modal-header {
+	padding: 0px;
+	border: none;
+}
+
+#footText {
+	text-color: rgba(255, 255, 255, 0.55);
+	padding-left: 10vw;
+}
+
 /*@media (min-width: 768px) {
 	.navbar-toggle {
 		display: none;	

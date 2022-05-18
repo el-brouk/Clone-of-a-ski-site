@@ -89,7 +89,7 @@
   <main>
    <section class="container-fluid p-0 mb-4">
     
-  
+<!-- jumbotron --> 
       <div id="jumbotron">
       
         <picture>
@@ -124,6 +124,7 @@
              
     </section>
 
+<!-- 3 columns info -->
     <section class="container">
       <div class="my-5 lh-1">
         <div class="row justify-content-between">
@@ -155,6 +156,7 @@
       </div>
     </section>
 
+<!-- tracks picture -->
     <section class="container-fluid p-0 my-4">
        
         <picture>
@@ -164,11 +166,37 @@
                 sizes="(max-width: 768px) 680px,
                   (max-width: 992px) 880px,
                   1200px">
-          <img src="images/landscape-jumbotron-768.jpeg" alt="Picture of tracks" class="img-fluid">
+          <img src="images/landscape-jumbotron-768.jpeg" alt="Picture of tracks" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </picture>
+
+<!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="images/landscape-jumbotron-768.jpeg" alt="Picture of tracks" class="img-fluid">
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        </div>
       </section>
 
   </main>
+
+  <footer>
+   <div class="container-fluid bg-dark">
+    <div id="footText"><a>2022  Lizabr</a>
+    </div>
+
+   </div>
+  </footer>
 
     <!-- jQuery (Bootstrap JS plugins depend on it)  -->
   <script src="js/jquery-3.6.0.min.js"></script>
