@@ -14,7 +14,7 @@
       <div class="container">
         <a class="navbar-brand" href="#">St Hugues / Les Egaux</a>
           
-        <!-- navbar button and offcanvas menu-->
+<!-- navbar button and offcanvas menu-->
           
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -58,14 +58,14 @@
         
         
 
-       <!-- <search button and form>
-          <div id="searchText">
+   <!--     <search button and form> -->
+       <!--   <div id="searchText">
             <input class="me-2" type="search" placeholder="START TYPING..." aria-label="Search">
           </div>
           
           <button id="searchButton" class="btn btn-primary " type="submit" aria-expanded="false" aria-controls="collapseExample"><img src="/icons/search.svg" alt="Bootstrap" width="25" height="25" class="filter-white">
           </button>
-        </form>
+        </form>-->
  
         
        <button id="searchButton" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#searchText" aria-expanded="false">
@@ -80,7 +80,7 @@
           <div class="offcanvas-body">
             <input class="border-0 mt-2" type="search" placeholder="START TYPING..." aria-label="Search">
           </div>
-        </div>-->
+        </div>
         
         </div> 
     </nav>
@@ -192,7 +192,7 @@
 
   <footer>
    <div class="container-fluid bg-dark">
-    <div id="footText"><a>2022  Lizabr</a>
+    <div id="footText"><span>@ 2022    Lizabr</span>
     </div>
 
    </div>
@@ -209,6 +209,9 @@
       $("#family").fadeIn(2000);
       $("#jumboText").fadeIn(2000);
     });
+
+    let element = document.getElementById("searchText");  
+    element.style.visibility = "hidden";  
 
    $(document).ready(function(){
       $("#searchButton").click(function(){

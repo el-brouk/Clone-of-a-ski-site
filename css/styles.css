@@ -114,9 +114,12 @@
 }
 
 #footText {
-	text-color: rgba(255, 255, 255, 0.55);
+	color: white;
 	padding-left: 10vw;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
+
 
 /*@media (min-width: 768px) {
 	.navbar-toggle {
