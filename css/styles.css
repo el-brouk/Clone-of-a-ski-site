@@ -62,8 +62,8 @@
 
 #searchText .offcanvas-body {
 	position: absolute;
-	
 } 
+
 
 .btn-primary {
 	background-color: black;
@@ -121,8 +121,8 @@
 }
 
 
-/*@media (min-width: 768px) {
-	.navbar-toggle {
+@media (min-width: 768px) {
+	.offcanvas-top {
 		display: none;	
-	}
-}*/
+		}
+}

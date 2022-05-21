@@ -78,7 +78,7 @@
             </button>
           </div>
           <div class="offcanvas-body">
-            <input class="border-0 mt-2" type="search" placeholder="START TYPING..." aria-label="Search">
+            <input class="border-0 " type="search" placeholder="START TYPING..." aria-label="Search">
           </div>
         </div>
         
@@ -160,17 +160,17 @@
     <section class="container-fluid p-0 my-4">
        
         <picture>
-          <source srcset="images/landscape-jumbotron-768.jpeg 768w,
-                   images/landscape-jumbotron-992.jpeg 992w,
-                   images/landscape-jumbotron-1200.jpeg 1200w" type="image/svg+xml"
+          <source srcset="images/shema_sklonov-768.jpeg 768w,
+                   images/shema_sklonov-992.jpeg 992w,
+                   images/shema_sklonov-1200.jpeg 1200w" type="image/svg+xml"
                 sizes="(max-width: 768px) 680px,
                   (max-width: 992px) 880px,
                   1200px">
-          <img src="images/landscape-jumbotron-768.jpeg" alt="Picture of tracks" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <img src="images/shema_sklonov-768.jpeg" alt="Picture of tracks" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal">
         </picture>
 
-<!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
               <div class="modal-header">
@@ -178,7 +178,7 @@
                 </button>
               </div>
               <div class="modal-body">
-                <img src="images/landscape-jumbotron-768.jpeg" alt="Picture of tracks" class="img-fluid">
+                <img src="images/shema_sklonov-1200.jpeg" alt="Picture of tracks" class="img-fluid">
               </div>
               
             </div>
@@ -190,7 +190,7 @@
 
   </main>
 
-  <footer>
+ <footer>
    <div class="container-fluid bg-dark">
     <div id="footText"><span>@ 2022    Lizabr</span>
     </div>
@@ -210,12 +210,13 @@
       $("#jumboText").fadeIn(2000);
     });
 
-    let element = document.getElementById("searchText");  
-    element.style.visibility = "hidden";  
+   // let element = document.getElementById("searchText");  
+    //element.style.visibility = "hidden";  
 
-   $(document).ready(function(){
+     $(document).ready(function(){
       $("#searchButton").click(function(){
         $("#searchText").toggle();
+        $("#searchText").display("flex");
       });
     });
 
