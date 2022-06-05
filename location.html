@@ -35,19 +35,19 @@
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Infos Pratiques</a>
                   <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Tafifs</a></li>
-                    <li><a class="dropdown-item" href="#">Plan</a></li>
-                    <li><a class="dropdown-item" href="#">Location de ski</a></li>
-                    <li><a class="dropdown-item" href="#">Restorstion</a></li>
-                    <li><a class="dropdown-item" href="#">Hebergement</a></li>
                     <li><a class="dropdown-item" href="#">ESF - Cours de ski</a></li>
                     <li><a class="dropdown-item" href="#">Espace debutants</a></li>
+                    <li><a class="dropdown-item" href="tarifs.html">Tarifs</a></li>
+                    <li><a class="dropdown-item" href="#">Plan</a></li>
+                    <li><a class="dropdown-item" href="locationDesSkis.html">Location de ski</a></li>
+                    <li><a class="dropdown-item" href="#">Restorstion</a></li>
+                    <li><a class="dropdown-item" href="#">Hebergement</a></li>
                     <li><a class="dropdown-item" href="#">On parle de nous!</a></li>
                     <li><a class="dropdown-item" href="#">Nos partenaires</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Louez la station</a>
+                  <a class="nav-link" href="location.html">Louez la station</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contact</a>
@@ -56,20 +56,9 @@
           </div>
         </div>
         
-        
-
-   <!--     <search button and form> -->
-       <!--   <div id="searchText">
-            <input class="me-2" type="search" placeholder="START TYPING..." aria-label="Search">
-          </div>
-          
-          <button id="searchButton" class="btn btn-primary " type="submit" aria-expanded="false" aria-controls="collapseExample"><img src="/icons/search.svg" alt="Bootstrap" width="25" height="25" class="filter-white">
-          </button>
-        </form>-->
- 
-        
+                
        <button id="searchButton" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#searchText" aria-expanded="false">
-          <img src="/icons/search.svg" alt="Bootstrap" width="25" height="25" class="filter-white">
+          <img src="icons/search.svg" alt="Bootstrap" width="25" height="25" class="filter-white">
         </button>
 
         <div id="searchText" class="offcanvas offcanvas-top">
@@ -88,7 +77,7 @@
 
 
   <main>
-   <section class="container-fluid p-0 mb-4">
+   <section class="container-fluid position-relative p-0 mb-4">
     
 
       <div id="jumbotron">
@@ -131,13 +120,13 @@
         <div class="col-4">
           <form action="/action_page.php">
               <label for="name">Nom du contact:</label><br>
-                <input class="bg-light" type="text" id="fname" name="name"><br>
+                <input class="bg-light border-1" type="text" id="fname" name="name"><br>
               <label for="email">Email:</label><br>
-                <input class="bg-light" type="email" id="email" name="email"><br>
+                <input class="bg-light  border-1" type="email" id="email" name="email"><br>
               <label for="date">Reservation:</label><br>
-                <input class="bg-light" type="date" id="date" name="date"><br>
+                <input class="bg-light border-1" type="date" id="date" name="date"><br>
               <label for="message">Descriptif:</label><br>
-                <textarea class="bg-light" name="message" rows="6"></textarea><br>
+                <textarea class="bg-light border-1" name="message" rows="6"></textarea><br>
             
             <button type="submit" class="btn btn-primary bg-info">Envoyer</button>
           </form>
