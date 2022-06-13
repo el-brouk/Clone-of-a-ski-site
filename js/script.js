@@ -14,3 +14,9 @@ $(document).ready(function(){
     });
 
 
+submit.addEventListener('click', updater);
+function updater () {
+  let firstName = document.getElementById('fname').value;
+  window.alert( `Hello, ${firstName}` );
+}
+
